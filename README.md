@@ -1,4 +1,3 @@
-# git_instruction
 GIT - system of version control .
 
 GIT has repositories which can be local or remote and you can connect all of the repositories together.
@@ -15,8 +14,12 @@ gitbash is a software that is utilised to control our computer through the use o
       -edit setting.json for integration of bash into VS code
        "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     -github account(remote repository)
-    -user.name = mikhailValerievich
+    (View and edit settings)
+     git config --list
+     git config --global user.name  "MikhailZyukin"
 
+remote >>> local
+{
 step 1 :
     creation of a remote repository.
 step 2 :
@@ -31,6 +34,11 @@ step 3 :
      git add README.md  (selected file)
      git commit -m 'First changes'
      git push
+}
+
+
+local >>> remote
+{
 step 4 :
     echo "# misha" >> README.md
     git init
@@ -40,3 +48,4 @@ step 4 :
     git remote add origin git@github.com:MikhailZyukin/misha.git
     git push -u origin master
     git remote add origin git@github.com:MikhailZyukin/misha.git
+}
