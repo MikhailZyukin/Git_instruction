@@ -17,6 +17,7 @@ gitbash is a software that is utilised to control our computer through the use o
     (View and edit settings)
      git config --list
      git config --global user.name  "MikhailZyukin"
+     git config --global core.editor "'C:\Users\Mikhail\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code' -multiInst -nosession -noPlugin"
 
 remote >>> local
 {
@@ -40,7 +41,7 @@ step 3 :
 local >>> remote
 {
 step 4 :
-    echo "# misha" >> README.md
+    create directory (folder) for repository
     git init
     git add README.md
     git commit -m "first commit"
