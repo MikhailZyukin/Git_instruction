@@ -17,7 +17,7 @@ gitbash is a software that is utilised to control our computer through the use o
     (View and edit settings)
      git config --list
      git config --global user.name  "MikhailZyukin"
-     git config --global core.editor "'C:\Users\Mikhail\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code' -multiInst -nosession -noPlugin"
+     git config --global core.editor "'C:\Users\Mikhail\AppData\Local\Programs\Microsoft VS Code\Code.exe' -n -w"
 
 remote >>> local
 {
